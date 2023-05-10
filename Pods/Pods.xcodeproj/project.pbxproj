@@ -107,7 +107,7 @@
 		0DDA2A117C42ED0E2CC40621F500638E /* NSMutableAttributedString+YDAvoidCrash.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "NSMutableAttributedString+YDAvoidCrash.m"; sourceTree = "<group>"; };
 		1478164DBBAC29C740161D2C1DC854E1 /* Pods-YDKitDemo.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-YDKitDemo.modulemap"; sourceTree = "<group>"; };
 		1A102EF2BC39CB3882B55F31A7F9D25A /* Pods-YDKitDemo-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-YDKitDemo-acknowledgements.plist"; sourceTree = "<group>"; };
-		1A730C0822B13471C315E92C2A804068 /* YDAvoidCrashKit.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = YDAvoidCrashKit.podspec; sourceTree = "<group>"; tabWidth = 2; };
+		1A730C0822B13471C315E92C2A804068 /* YDAvoidCrashKitForJE.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = YDAvoidCrashKitForJE.podspec; sourceTree = "<group>"; tabWidth = 2; };
 		1B1D0125A20EE698144E3E00A3003063 /* NSArray+YDAvoidCrash.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "NSArray+YDAvoidCrash.m"; sourceTree = "<group>"; };
 		1B29E67049A5DDD2B76BA7F46E6866EA /* NSObject+YDAvoidCrashRunTime.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NSObject+YDAvoidCrashRunTime.h"; sourceTree = "<group>"; };
 		1C83859102BCA7DCAB04B3244FB51484 /* NSMutableDictionary+YDAvoidCrash.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "NSMutableDictionary+YDAvoidCrash.m"; sourceTree = "<group>"; };
@@ -292,7 +292,7 @@
 			children = (
 				2BE6B97CB83E501797951354F8202B43 /* LICENSE */,
 				A57C489CBF50669FF52B93ED0D7DCE32 /* README.md */,
-				1A730C0822B13471C315E92C2A804068 /* YDAvoidCrashKit.podspec */,
+				1A730C0822B13471C315E92C2A804068 /* YDAvoidCrashKitForJE.podspec */,
 			);
 			name = Pod;
 			sourceTree = "<group>";

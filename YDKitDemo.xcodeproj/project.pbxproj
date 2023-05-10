@@ -87,7 +87,7 @@
 		15850C5327049FE3002F79B5 /* YDTimer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YDTimer.h; sourceTree = "<group>"; };
 		15B5F0302700B12A00EDE949 /* YDMonitor.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YDMonitor.h; sourceTree = "<group>"; };
 		15B5F0312700B12A00EDE949 /* YDMonitor.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YDMonitor.m; sourceTree = "<group>"; };
-		15C5BD5928AC8D9E00E5B1EC /* YDAvoidCrashKit.podspec */ = {isa = PBXFileReference; lastKnownFileType = file; path = YDAvoidCrashKit.podspec; sourceTree = SOURCE_ROOT; };
+		15C5BD5928AC8D9E00E5B1EC /* YDAvoidCrashKitForJE.podspec */ = {isa = PBXFileReference; lastKnownFileType = text; path = YDAvoidCrashKitForJE.podspec; sourceTree = SOURCE_ROOT; };
 		15CB1E3226FF40A7005B8314 /* NSMutableData+YDAvoidCrash.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSMutableData+YDAvoidCrash.h"; sourceTree = "<group>"; };
 		15CB1E3326FF40A7005B8314 /* NSMutableData+YDAvoidCrash.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSMutableData+YDAvoidCrash.m"; sourceTree = "<group>"; };
 		15CC3BF026F43EF50089F133 /* YDAvoidCrash.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YDAvoidCrash.m; sourceTree = "<group>"; };
@@ -286,7 +286,7 @@
 		15CC3BEE26F43EF50089F133 /* YDAvoidCrashKit */ = {
 			isa = PBXGroup;
 			children = (
-				15C5BD5928AC8D9E00E5B1EC /* YDAvoidCrashKit.podspec */,
+				15C5BD5928AC8D9E00E5B1EC /* YDAvoidCrashKitForJE.podspec */,
 				15CC3C1926F43EF50089F133 /* YDAvoidCrashKit.h */,
 				15850C5127049FE3002F79B5 /* YDTimer */,
 				152E91FE27007D47007DD43A /* YDSafeThread */,

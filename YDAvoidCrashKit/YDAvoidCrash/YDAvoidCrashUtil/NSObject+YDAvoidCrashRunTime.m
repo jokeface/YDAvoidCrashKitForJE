@@ -12,9 +12,25 @@
 
 
 + (void)exchangeClassMethod:(Class)anClass method1Sel:(SEL)method1Sel method2Sel:(SEL)method2Sel {
-    Method method1 = class_getClassMethod(anClass, method1Sel);
-    Method method2 = class_getClassMethod(anClass, method2Sel);
-    method_exchangeImplementations(method1, method2);
+       Method originalMethod = class_getClassMethod(anClass, method1Sel);
+       Method swizzledMethod = class_getClassMethod(anClass, method2Sel);
+       
+       IMP swizzledImp = method_getImplementation(swizzledMethod);
+       char *swizzledTypes = (char *)method_getTypeEncoding(swizzledMethod);
+       
+       IMP originalImp = method_getImplementation(originalMethod);
+       char *originalTypes = (char *)method_getTypeEncoding(originalMethod);
+
+       BOOL success = class_addMethod(anClass, method2Sel, swizzledImp, swizzledTypes);
+       
+         Class meta_class = objc_getMetaClass(class_getName(anClass));
+         if (success) {
+           class_replaceMethod(meta_class, method2Sel, originalImp, originalTypes);
+           class_replaceMethod(meta_class, method1Sel, swizzledImp, swizzledTypes);
+       }else {
+     //       添加失败，表明已经有这个方法，直接交换
+           method_exchangeImplementations(originalMethod, swizzledMethod);
+       }
 }
 
 + (void)exchangeInstanceMethod:(Class)anClass method1Sel:(SEL)method1Sel method2Sel:(SEL)method2Sel {

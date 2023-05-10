@@ -8,11 +8,11 @@
 
 Pod::Spec.new do |spec|
 
-  spec.name         = "YDAvoidCrashKit"
-  spec.version      = "0.1.8"
+  spec.name         = "YDAvoidCrashKitForJE"
+  spec.version      = "0.0.1"
   spec.summary      = "防崩溃、性能检测等"
 
-  spec.homepage     = "https://github.com/chong2vv/YDAvoidCrashKit"
+  spec.homepage     = "https://github.com/jokeface/YDAvoidCrashKitForJE"
 
   spec.license      = "MIT"
 
@@ -21,7 +21,7 @@ Pod::Spec.new do |spec|
 
   spec.platform     = :ios, "9.0"
 
-  spec.source       = { :git => "https://github.com/chong2vv/YDAvoidCrashKit.git", :tag => "#{spec.version}" }
+  spec.source       = { :git => "https://github.com/jokeface/YDAvoidCrashKitForJE.git", :tag => "#{spec.version}" }
   spec.source_files = "YDAvoidCrashKit/*"
 #  spec.public_header_files = "YDAvoidCrashKit/*.h","YDAvoidCrashKit/**/*.h", "YDAvoidCrashKit/**/**/*.h"
   
